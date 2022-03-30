@@ -1,0 +1,249 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: font1 ;
+    src: url(../font/Action\ Comics.ttf);
+}
+@font-face {
+    font-family:font tieu de;
+    src: url(../font/tieude.ttf);
+}
+@font-face {
+    font-family:font binh thuong ;
+    src: url(../font/textbinhthuong.otf);
+}
+@font-face {
+    font-family:font nghieng ;
+    src: url(../font/textnghieng.otf);
+}
+.clear{
+    clear:both;
+}
+.container{
+    width:1100px;
+    margin: 0 auto;
+}
+
+.main{
+    padding:100px 0;
+}
+.header{
+    background-color: rgb(29, 27, 27);
+    padding:32px 0;
+}
+.logo{
+ height:30%;
+ display:inline-block;
+ position:0 20px;
+ vertical-align: middle;
+}
+
+.thu_muc{
+    width:50%;
+    display:inline-block;
+    text-align: right;
+    vertical-align: middle;
+}
+.thu_muc ul{
+   display:inline-block;
+}
+
+.thu_muc li {
+    display:inline-block;
+    margin-left: 22px;
+    color: antiquewhite;
+    text-decoration:none ;
+    font-family: font tieu de;
+    font-size: 30px;
+}
+.container1{
+    height:800px;
+    background-image: url("../img/background1-01.png");
+    background-size: cover;
+    background-position: center;
+    margin : 0 auto;
+}
+.container2{
+    width:1000px ;
+    margin:0
+
+}
+.card{
+    
+    width:30%;
+    border-radius: 20px ;
+    box-shadow: 2px 6px 10px gray ;
+    overflow:hidden;
+    display:inline-block;
+    margin-left: 40px;
+    margin-top: 100px;
+}
+.future{
+    overflow:hidden;
+    height:500px;
+}
+.future img{
+    width:100%;
+
+}
+.conten-card{
+    background-color: rgb(73, 44, 44);
+    padding:30px;
+}
+.conten-card h2{
+    color:antiquewhite;
+    font-family: font tieu de;
+    margin-bottom: 30px ;
+}
+.conten-card p{
+    color:antiquewhite;
+    font-family: font binh thuong;
+}
+
+
+
+
+.banner{
+    background-color: rgb(51, 44, 44);
+    padding:100px 0;
+}
+.content-banner{
+    width:50%;
+    display:inline-block;
+    vertical-align: middle;
+    margin:0 50px;
+}
+.content-banner h1{
+    font-weight:400px;
+    font-family: font tieu de;
+    color:antiquewhite;
+}
+.content-banner p{
+    margin:10px 0 40px;
+    color:antiquewhite;
+    font-family: font binh thuong;
+    vertical-align:middle ;
+    display:inline-block;
+}
+.img-banner{
+    width:calc(50%-100px);
+    height:350px;
+    display:inline-block;
+    overflow:hidden;
+    vertical-align: middle;
+    margin-top: 50px;
+}
+.img-banner img{
+    width:100%;
+    
+}
+.chu-thich{
+    color:rgb(82, 50, 50);
+    background-color: rgb(226, 212, 212);
+    font-family: font tieu de;
+    font-size:20px;
+    margin:0 20px 200px;
+}
+.banner2{
+    background-color: rgb(41, 39, 39);
+    float:right;
+}
+.content-banner2{
+    width:50%;
+    display:inline-block;
+    vertical-align: middle;
+    
+    
+}
+.content-banner2 p{
+    color:antiquewhite;
+    font-family: font nghieng;
+    margin:90px;
+    margin-top: 50px;
+   
+}
+.content-banner2 a {
+    margin:90px ;
+    margin-top: 90px;
+    font-size:40px;
+    vertical-align: middle;
+    color:rgb(54, 47, 47);
+    background-color:antiquewhite;
+    font-family: font tieu de;
+    
+    
+   
+
+}
+.img-banner2{
+    width:600px;
+    display:inline-block;
+    overflow:hidden;
+    height:700px;
+    vertical-align: middle;
+    margin:40px;
+    
+}
+.img-banner2 img{
+    width:100%;
+}
+.moi{
+    background-color: antiquewhite;
+    padding:100px 0;
+}
+.moi h1{
+    color:rgb(75, 66, 55);
+    font-family: font tieu de;
+    text-align: center;
+}
+.footer{
+    padding:100px 0 0;
+}
+.main-footer{
+    padding-bottom: 100px;
+
+}
+.about-footer{
+    width:20%;
+    display:inline-block;
+    vertical-align:top;
+}
+.about-footer p {
+    margin-bottom: 16px;
+    padding:20px;
+    color:rgb(82, 66, 66);
+    font-family: font binh thuong;
+    font-size: 15px;
+}
+.list-menu{
+    width:15%;
+    display:inline-block;
+    vertical-align:top;
+
+}
+.list-menu ul{
+    list-style: none;
+}
+.list-menu li{
+    margin:18px 0;
+    color:rgb(87, 73, 73);
+    font-family: font tieu de;
+    font-size: 20px;
+}
+.coppyright{
+    text-align: center;
+    background-color: rgb(131, 118, 118);
+}
+
+    
+
+
+
+
+
+
+
+    
